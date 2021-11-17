@@ -137,7 +137,6 @@ void parse(char *str)
 // DRIVER FUNCTION
 int main(int argc, char *argv[])
 {
-  // maximum length of string is 100 here
   char const *const fileName = argv[1];
 
   FILE *file = fopen(fileName, "r");
